@@ -2,7 +2,7 @@ package com.project;
 
 import java.util.Scanner;
 
-public class Main {
+public class AgeCalculator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

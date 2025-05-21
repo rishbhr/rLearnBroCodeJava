@@ -2,7 +2,7 @@ package com.project;
 
 import java.util.Random;
 
-public class Examples {
+public class CoinFlip {
 
     public static void main(String[] args) {
         Random random = new Random();
