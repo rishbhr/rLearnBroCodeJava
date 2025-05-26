@@ -5,7 +5,7 @@ public class Main {
         Car car = new Car("BMW M3", "White", 50000);
 
         car.setColor("Blue");
-        car.setPrice(30000);
+        car.setPrice(-2);
 
         System.out.println(car.getColor() + " " + car.getModel() + " " + car.getPrice());
     }

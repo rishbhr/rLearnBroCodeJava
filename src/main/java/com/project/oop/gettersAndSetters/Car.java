@@ -1,7 +1,8 @@
 package com.project.oop.gettersAndSetters;
 
 public class Car {
-    private String model, color;
+    private final String model;
+    private String color;
     private int price;
 
     Car(String model, String color, int price) {
@@ -28,6 +29,10 @@ public class Car {
         this.color = color;
     }
     void setPrice(int price) {
-        this.price = price;
+        if (price < 0 ) {
+            System.out.println("Price cannot be less than 0.");
+        } else {
+            this.price = price;
+        }
     }
 }
