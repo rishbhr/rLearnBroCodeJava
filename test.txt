@@ -1,0 +1,2 @@
+Here is how to write a file.
+ This is sent as a string.
